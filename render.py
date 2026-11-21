@@ -1,3 +1,10 @@
+"""Deterministic newspaper front page for 20 November 2026.
+
+Layout: masthead, flag with stars, skyline, cyclone emblem, and an
+ALSO TODAY rail. Fixed DejaVu fonts, fixed palette, and fixed geometry;
+no randomness, no time, and no network, so re-running render.py
+regenerates a byte-identical assets/entry.png.
+"""
 from functools import lru_cache
 from math import cos, pi, sin
 from pathlib import Path
